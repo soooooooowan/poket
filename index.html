@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/base1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>모바일사이트</title>
+    <script src="jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        /* bx슬라이더부분 */
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+            auto: true,
+          });
+        });
+
+        $(document).ready(function(){
+          $('.slider2').bxSlider({
+            auto: false,
+            pager: false,
+          });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+
+        <header>
+            <div id="headerIn">
+
+                <div class="top_gnb"> <!-- 탑메뉴 -->
+                    <ul>
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">JOIN US</a></li>
+                        <li><a href="#">CART</a></li>
+                        <li><a href="#">MYPAGE</a></li>
+                        <li><a href="#">ORDER</a></li>
+                    </ul>
+                </div>
+                
+                <h1 class="logo"><a href="#"><img src="images/logo.png" alt=""></a></h1> <!-- 모바일, 테블릿 로고 -->
+                <div class="user"><a href="#"><img src="images/user.png" alt=""></span></a></div> <!-- 유저 버튼 -->
+                <div class="pc_logo"><a href="#"><img src="images/pc_logo.png" alt=""></a></div> <!-- pc로고 -->
+                
+
+                <div class="opbtn"><a href="#"><img src="images/opbtn.png" alt=""></a></div> <!-- 메뉴 오픈 버튼 -->
+
+                <nav id="gnb"> <!-- 내비게이션 -->
+                    <ul>
+                        <li><a href="#">포켓스토리</a>
+                            <ul class="depth2">
+                                <li><a href="#">포켓샐러드란?</a></li>
+                                <li><a href="#">주문방법</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">신상품</a></li>
+
+                        <li><a href="#">포켓MENU</a>
+                            <ul class= "depth2">
+                                <li><a href="#">포켓샐러드</a></li>
+                                <li><a href="#">닭가슴살 볼</a></li>
+                                <li><a href="#">헤비주스</a></li>
+                                <li><a href="#">한입 밤 고구마</a></li>
+                                <li><a href="#">세트 상품</a></li>
+                                <li><a href="#">스페셜 상품</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">정기배송</a>
+                            <ul class= "depth2">
+                                <li><a href="#">4주 정기배송</a></li>
+                                <li><a href="#">주스 정기배송</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">이벤트</a>
+                            <ul class= "depth2">
+                                <li><a href="#">진행 중</a></li>
+                                <li><a href="#">종료</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">공지사항</a></li>
+
+                        <li><a href="#">고객리뷰</a>
+                            <ul class= "depth2">
+                                <li><a href="#">한 줄 리뷰</a></li>
+                                <li><a href="#">포토 리뷰</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div> <!-- headerIn 끝 -->
+
+            <div id="follow"><a href="#">∧<br>TOP</a></div> 
+                       
+        </header>
+
+        <main>
+
+            <div id="mainvisual"> <!-- 메인 슬라이드 -->
+                <ul class="slider">
+                    <li><a href="#"><img src="images/slide.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/slide_2.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/slide_3.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div id="cont2"> <!-- 포켓샐러드가 처음이신가요? 영역 -->
+                <h1><span class="title">포켓샐러드가 처음이신가요?</span></h1>
+
+                <div class="inbox">
+
+                <div class="inbox0">
+                    <a href="#"><img src="images/order.png" alt=""></a>
+                </div>
+
+                <div class="inbox1">
+                    <div class="fir_box">
+                        <a href="#"><img src="images/fir_best.png" alt=""></a>
+                        
+                        <p class="fir_text1">포켓샐러드 BEST 맛보기세트<br>
+                        <span class="fir_text2">인기있는 샐러드 8종을 만나보세요!</span></p>
+                    </div>
+                </div>
+
+                <div class="inbox2">
+                    <div class="fir_box2">
+                        <a href="#"><img src="images/fir_all.png" alt=""></a>
+                        
+                        <p class="fir_text1">포켓샐러드 All 맛보기세트<br>
+                        <span class="fir_text2">포켓샐러드의 모든 상품을 맛보기로!</span></p>
+                    </div>
+                </div>
+
+                </div>  <!-- inbox 닫음 -->
+            </div> <!-- cont2 닫음 -->
+
+            <div id="cont3"> <!-- BEST영역 -->
+                <h2><span class="title2">B  E  S  T</span></h2>
+
+                <ul class="slider2">
+                    <li><a href="#"><img src="images/best_1.png" alt="">
+                    <p class="sl_text">포켓샐러드 한달구매<br>
+                        <span class="slider_text1">[1일 1식 주5일]</span><br>
+                        <span class="slider_text2">100,000원</span><br>
+                        <span class="slider_text3">97,000원</span>
+                    </p>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_2.png" alt="">
+                    <p class="sl_text">닭가슴살볼 30팩<br>
+                        <span class="slider_text1">[3종 각 10팩씩]</span><br>
+                        <span class="slider_text2">65,000원</span><br>
+                        <span class="slider_text3">60,970원</span>
+                    </p>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_3.png" alt="">
+                    <p class="sl_text">크래미 샐러드<br>
+                        <span class="slider_text1">[1팩]</span><br>
+                        <span class="slider_text2">5,100원</span><br>
+                        <span class="slider_text3">4,800원</span>
+                    </p>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_4.png" alt="">
+                    <p class="sl_text">닭가슴살 샐러드<br>
+                        <span class="slider_text1">[1팩]</span><br>
+                        <span class="slider_text2">4,800원</span><br>
+                        <span class="slider_text3">4,500원</span>
+                    </p>
+                    </a></li>
+                </ul>
+
+                <ul class="it_best"> <!-- pc에서 보이는 best메뉴 -->
+                    <li><a href="#"><img src="images/best_1.png" alt="">
+                        <div class="in_best">
+                            <p class="best_text1">샐러드 4주 정기배송<br>
+                                <span class="best_text2">[1일 1식 주5일]</span><br>
+                                <span class="best_text3">100,000원</span><br>
+                                <span class="best_text4">97,000원</span>
+                            </p>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_2.png" alt="">
+                        <div class="in_best">
+                            <p class="best_text1">닭가슴살 볼 30팩<br>
+                                <span class="best_text2">[3종 각 10팩]</span><br>
+                                <span class="best_text3">65,000원</span><br>
+                                <span class="best_text4">60,970원</span>
+                            </p>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_3.png" alt="">
+                        <div class="in_best">
+                            <p class="best_text1">크래미 샐러드<br>
+                                <span class="best_text2">[1팩]</span><br>
+                                <span class="best_text3">5,100원</span><br>
+                                <span class="best_text4">4,800원</span>
+                            </p>
+                        </div>
+                    </a></li>
+
+                    <li><a href="#"><img src="images/best_4.png" alt="">
+                        <div class="in_best">
+                            <p class="best_text1">닭가슴살 샐러드<br>
+                                <span class="best_text2">[1팩]</span><br>
+                                <span class="best_text3">4,800원</span><br>
+                                <span class="best_text4">4,500원</span>
+                            </p>
+                        </div>
+                    </a></li>
+                </ul> <!-- pc에서 보이는 best메뉴 -->
+            </div> <!-- cont3 닫음 -->
+
+            <div id="cont4-1"> <!-- PC에서 보이는 광고 -->
+                <a href="#"><img src="images/middle.png" alt=""></a>
+            </div>
+
+            <div id="cont4"> <!-- EVENT 영역 -->
+                <h3><span class="title3">EVENT</span></h3>
+
+                <div class="event1"><a href="#"><img src="images/sale.png" alt=""></a></div>
+            </div>
+
+            <div id="cont5">
+                <h4><span class="title4">REVIEW</span></h4>
+                
+                <div class="rev"> <!-- 모바일 리뷰 -->
+                    <h5>BEST 1</h5>
+
+                    <p class="rev_text1">포켓샐러드 All 맛보기 세트<br>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="rev_text2">맛 좋고 건강에도 좋고 ~<br>
+                                                간편해서 더 좋아요!</span>
+                    </p>
+
+                    <div class="rev_img"><a href="#"><img src="images/re_1.png" alt=""></a></div>
+
+                </div> <!-- 모바일 리뷰 -->
+
+            <!-- ---------------------pc,태블렛에서 보이는 MD추천 영역--------------------- -->
+                <h6><span class="title4">MD추천</span></h6>
+
+                <div class="md">
+                    <ul>
+                        <li><a href="#"><div class="md_1"></div></a></li>
+                        <div class="in_md">
+                            <li><a href="#"><div class="md_2"></div></a></li>
+                            <li><a href="#"><div class="md_3"></div></a></li>
+                        </div>
+                        <li><a href="#"><div class="md_4"></div></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="cont6"> <!-- PC, 태블릿에서 보이는 EVENT 영역 -->
+                <h6 class="comm"><span class="title4">EVENT</span></h6>
+
+                <div class="in_comm">
+                <div class="sale"><a href="#"><img src="images/sale.png" alt=""></a></div>
+                <div class="sale"><a href="#"><img src="images/coupon.png" alt=""></a></div>
+                <div class="sale_2"><a href="#"><img src="images/spring.png" alt=""></a></div>
+                </div> <!-- in_comm 닫음 -->
+            </div> <!-- cont6 닫음 -->
+
+            <div id="cont7"> <!-- REVIEW 영역 -->
+
+                <h6 class="comm_2"><span class="title4">REVIEW</span></h6>
+
+                <div class="re_12">
+                    
+                    <div class="review_1">
+                        <div class="bestbox">1</div>
+
+                        <a href="#">
+                            <p class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            </p>
+
+                            <p class="re_text1">포켓샐러드 All 맛보기 세트<br>
+                                        <span>맛 좋고 건강에도 좋고 ~<br>
+                                                간편해서 더 좋아요!</span>
+                            </p>
+
+                            <div class="re_img">
+                                <a href="#"><img src="images/re_1.png" alt=""></a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="review_1">
+
+                    <div class="bestbox">2</div>
+
+                    <a href="#">
+                        <p class="star">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        </p>
+
+                        <p class="re_text1">닭가슴살 볼 커리맛 10팩<br>
+                                    <span>너무 만족합니다^^!<br>
+                                            벌써 3달 째~~</span>
+                        </p>
+
+                        <div class="re_img">
+                            <a href="#"><img src="images/re_2.png" alt=""></a>
+                        </div>
+                    </a>
+
+                    </div> <!-- review_1 닫음 -->
+
+                    <div class="review_3">
+
+                    <div class="bestbox">3</div>
+
+                    <a href="#">
+
+                        <p class="star">
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        <span class="fas fa-star"></span>
+                        </p>
+
+                        <p class="re_text1">건강한 heavy 주스<br>
+                                    <span>포만감이 좋아서<br>
+                                            아침 밥으로 너무 든든해요!</span>
+                        </p>
+
+                        <div class="re_img">
+                            <a href="#"><img src="images/re_3.png" alt=""></a>
+                        </div>
+
+                    </a>
+
+                    </div> <!-- review_3 닫음 -->
+                </div> <!-- re_12 닫음 -->
+            </div> <!-- cont7 닫음 -->
+
+        </main>
+
+        <footer>
+            <div id="ft">  <!-- 모바일의 풋터 -->
+                <div class="in_ft">
+
+                    <div class="sns">
+                        <span class="fab fa-facebook"></span>
+                        <span class="fab fa-instagram"></span>
+                        <span class="fab fa-twitter"></span>
+                    </div>
+
+                    <div class="ft_text">
+                        <ul>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">약관</a></li>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="add">
+                        대표　|　박혜리<br>
+                        주소　|　인천광역시 강화군 양도면 중앙로 971<br>
+                        사업자등록번호　|　346-88-00170<br>
+                        통신판매신고번호　|　제 2015-인천강화-0015호<br>
+                        개인정보담당자　|　박혜리[poketsalad@atover.co.kr]<br>
+                    </div>
+
+                    <div class="qna">
+                        <span class="inqna">문의   1833-5722</span><br>
+                        평일 오전10:00-오후06:00<br>
+                        점심 오후01:00-오후02:00<br>
+                        휴무 토/일/공휴일
+                    </div>
+                </div>
+           </div><!-- -----------모바일의 풋터-------------- -->
+
+
+           <div id="pc_ft"> <!-- ----------pc 테블릿에서 보이는 FOOTER---------- -->
+               <div class="pc_ft_text">
+                    <ul>
+                        <li><a href="#">개인정보취급방침</a></li>
+                        <li><a href="#">약관</a></li>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+               </div>
+
+               <div class="pc_ft_2">
+                   <div class="pc_ftin_1">
+                        <p class=pc_call>Call Center</p>
+                        <p class="pc_call2">1833-5722<br>
+                                <span class="pc_time">평일 오전 10:00 <br><span class="pc_time_in">오후 06:00</span><br>
+                                    점심 오후 01:00 <br><span class="pc_time_in">오후 02:00</span><br>
+                                    휴무 토 / 일 / 공휴일은 휴무</span></p>
+                    </div>
+
+                    <div class="pc_ftin_2">
+                        <p class="bk_info">Bank Info</p>
+                        <p class="bk_info2">신한은행 100-031-681034<br>
+                                우리은행 1005-003-043705<br>
+                                국민은행 431837-01-013928<br>
+                                농협은행 301-0197-0223-71</p>
+                        <p class="bk_info3">예금주 <span class="bk_in">(주)에이타워</p>
+                    </div>
+
+                    <div class="pc_ftin_3">
+                        <p class="cpn_info">Company Info</p>
+                        <p class="cpn_info2">법인명 | <span class="cpn_in">주식회사 에이타워　</span> 대표자 | <span class="cpn_in">박혜리</span><br>
+                                            사업자 등록번호 | <span class="cpn_in">346-88-00170　</span>
+                                            통신판매업신고 | <span class="cpn_in">제 2015-인천강화-0015호[사업자정보확인]</span><br>
+                                            대표전화 | <span class="cpn_in">02-6959-3035　</span> 팩스 | <span class="cpn_in">02-659-2236</span><br>
+                                            주소 | <span class="cpn_in">인천광역시 강화군 양도면 중앙로 971</span><br>
+                                            개인정보관리책임자 | <span class="cpn_in">박혜리(poketsalad@atover.co.kr)</span></p>
+                    </div>
+               </div>
+
+               <div class="pc_ft_last">
+                   <div class="pc_ft_last_in">
+                        <p class="last_in">교환 & 반품 배송지</p>
+                        <p class="last_in2">받는이 | 포켓샐러드<br>
+                                                주소 | 인천광역시 강화군 양도면 중앙로 971 
+                                                (반드시 지정택배사를 이용해 주세요!)</p>
+                    </div>
+
+                    <div class="pc_ft_last_in"><a href="#"><img src="images/ft_logo.png" alt=""></a></div>
+               </div>
+           </div>
+        </footer>
+
+    </div> <!-- wrap 닫음 -->
+</body>
+<script>
+    /* 오픈메뉴 부분 */
+$("#headerIn>.opbtn").click(function(){
+    var poi = $("#gnb").css("display");
+    if(poi == "none"){
+        $("#gnb").show(100).animate({left:"0"});
+    }else if(poi == "block"){
+        $("#gnb").animate({left:"-100%"});
+        $("#gnb").fadeOut(200);
+        $(".depth2").slideUp();
+    }
+    return false;
+});
+    /* 2단메뉴 부분 */
+$("#gnb>ul>li>a").click(function(){
+    var dis = $(this).siblings(".depth2");
+    var two = dis.css("display");
+    
+    if(two == "none"){
+        $(".depth2").slideUp();
+        dis.slideDown(); // dis => display:block;
+    }else if(two == "block"){
+        dis.slideUp();
+    }
+});
+</script>
+</html>
